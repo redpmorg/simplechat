@@ -1,0 +1,28 @@
+    #messages {
+      width: 20rem;
+      min-height: 10rem;
+      overflow-x: hidden;
+      overflow-y: auto;
+      border: 1px solid #eee;
+      margin: 1rem 0 1rem 0;
+    }
+
+    #mess, #submit2 {
+      visibility: hidden;
+    }
+
+    .message {
+      max-width: 50%;
+      display: block;
+      font-family: arial verdana sans-serif;
+      font-size: 12px;
+      clear: both;
+    }
+
+    .resMess {
+      float: right;
+    }
+
+    .reqMess {
+      float: left;
+    }
